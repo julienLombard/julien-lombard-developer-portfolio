@@ -1,0 +1,215 @@
+.knowledges {
+  .knowledgesContent {
+    min-height: $minHeight;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 48% 1fr 1fr;
+    grid-template-rows: 30% 70%;
+    grid-template-areas:
+      'L L E'
+      'O H H';
+
+    .education,
+    .experience,
+    .otherSkills,
+    .hobbies {
+      background: $color-2;
+      border-radius: $borderRadius;
+      padding: 0.8rem;
+    }
+    h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      font-family: $font-2;
+      color: $color-4;
+      text-transform: uppercase;
+    }
+
+    .otherSkills {
+      grid-area: L;
+      margin-right: 0.5rem;
+
+      .list {
+        display: flex;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+
+        ul {
+          height: 80%;
+          display: grid;
+
+          li {
+            color: $white;
+          }
+
+          i {
+            color: $color-3;
+          }
+        }
+      }
+    }
+    .hobbies {
+      grid-area: E;
+      padding-left: 1.5rem;
+
+      ul {
+        height: 80%;
+        display: grid;
+
+        li {
+          color: $white;
+          i {
+            position: absolute;
+            color: $color-3;
+          }
+          span {
+            position: absolute;
+            transform: translateX(2.2rem);
+          }
+        }
+      }
+    }
+
+    .education {
+      grid-area: O;
+      margin: 0.5rem 0.25rem 0 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 10% 1fr 1fr;
+      grid-template-areas:
+        '1'
+        '2'
+        '3';
+
+      h3 {
+        grid-area: 1;
+      }
+      h4 {
+        font-size: 1.1rem;
+        color: $color-3;
+      }
+      h5 {
+        color: $white;
+        padding: 0.5rem 0 0.5rem 1rem;
+      }
+      ul {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+      }
+      li {
+        color: $white;
+        margin-left: 2.5em;
+      }
+      p {
+        text-align: justify;
+        padding: 0 1rem;
+        color: $white;
+      }
+      .exp-1 {
+        grid-area: 2;
+      }
+      .exp-2 {
+        grid-area: 3;
+      }
+    }
+
+    .experience {
+      grid-area: H;
+      margin: 0.5rem 0 0 0.25rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 10% 1fr 1fr;
+      grid-template-areas:
+        '1'
+        '2'
+        '3';
+
+      h3 {
+        grid-area: 1;
+      }
+      h4 {
+        font-size: 1.1rem;
+        color: $color-3;
+      }
+      h5 {
+        color: $white;
+        padding: 0.5rem 0 0.5rem 1rem;
+      }
+      ul {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+      }
+      li {
+        color: $white;
+        margin-left: 5em;
+      }
+      p {
+        text-align: justify;
+        padding: 0 1rem;
+        margin-left: 2.5em;
+        color: $white;
+      }
+      .exp-1 {
+        grid-area: 2;
+      }
+      .exp-2 {
+        grid-area: 3;
+      }
+    }
+  }
+}
+@media screen and (max-width: 950px) {
+  .knowledgesContent {
+    h3 {
+      font-size: 1.2rem !important;
+    }
+    .education {
+      padding-top: 0.2rem !important;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+    .otherSkills,
+    .hobbies {
+      font-size: 0.8rem;
+    }
+  }
+}
+@media screen and (max-width: 850px) {
+  .knowledgesContent {
+    h4 {
+      font-size: 0.9rem !important;
+    }
+    h5 {
+      font-size: 0.6rem !important;
+      padding: 0.2rem 1rem !important;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .knowledgesContent {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 180px 180px 1fr 1fr !important;
+
+    .otherSkills {
+      grid-area: 1 !important;
+      margin-right: 0 !important;
+    }
+    .hobbies {
+      grid-area: 2 !important;
+      margin-top: 0.5rem !important;
+    }
+    .education {
+      grid-area: 3 !important;
+    }
+    .experience {
+      grid-area: 4 !important;
+      margin-left: 0 !important;
+    }
+  }
+}
