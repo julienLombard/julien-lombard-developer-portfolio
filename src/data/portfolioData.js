@@ -4,8 +4,9 @@ export const portfolioData = [
     name: 'react portfolio',
     languages: ['javascript', 'css', 'react'],
     languagesIcons: ['fab fa-js', 'fab fa-css3-alt', 'fab fa-react'],
-    source: 'https://youtu.be/pS0v5eY7W9k',
-    info: "Portfolio développé avec React JS, en suivant un tutoriel de la chaine 'From Scratch - Développement Web' sur Youtube, qui m'a notamment permis de me faire la main avec React Router, et que j'ai pu ensuite personnalisé. Merci à ce youtubeur pour ce partage !",
+    source:
+      'https://github.com/julienLombard/julien-lombard-developer-portfolio',
+    info: "Portfolio développé avec React JS, en suivant un tutoriel de la chaine 'From Scratch - Développement Web' sur Youtube. Ce projet m'a permis de me faire la main avec React Router. Par la suite, j'ai pu modifié ce projet pour le personnalisé, ce qui m'a permis de me familiarisé davantage avec React JS et le Scss. Merci à ce youtubeur pour ce partage !",
     picture: './media/project1.png',
   },
   {
@@ -14,7 +15,7 @@ export const portfolioData = [
     languages: ['javascript', 'css', 'react'],
     languagesIcons: ['fab fa-js', 'fab fa-css3-alt', 'fab fa-react'],
     source: 'https://github.com/julienLombard/jamming-spotify',
-    info: "Projet réalisé durant mon parcours 'Front-end Engineer Carreer Path' sur codeCademy. Cette application réalisée avec React est basée sur l'api de Spotify. Elle permet de rechercher des chansons afins de constituer une playlist pour l'enregistrer sur notre compte Spotify. Pour l'utiliser, il est nécessaire d'avoir un compte chez Spotify.",
+    info: "Projet réalisé durant mon parcours 'Front-end Engineer Carreer Path' sur codeCademy. Cette application réalisée avec React est basée sur l'api de Spotify. Elle permet de rechercher des chansons afin de constituer une playlist pour l'enregistrer sur notre compte Spotify. Pour l'utiliser, il est nécessaire d'avoir un compte chez Spotify.",
     picture: './media/project2.png',
   },
   {
@@ -23,7 +24,7 @@ export const portfolioData = [
     languages: ['javascript', 'react', 'redux'],
     languagesIcons: ['fab fa-js', 'fab fa-react', 'fa-regular fa-r'],
     source: 'https://github.com/julienLombard/reddit-minimal',
-    info: "Projet également réalisé durant mon parcours 'Front-end Engineer Carreer Path' sur codeCademy. Cette application reéalisée avec Redux Toolkit est basée sur l'api du site Reddit.com. Elle permet d'afficher les dernières publications postées dans différentes catégories de sujets, et permet de également une recherche de publications en écrivant nos propres mots clés.",
+    info: "Projet également réalisé durant mon parcours 'Front-end Engineer Carreer Path' sur codeCademy. Cette application réalisée avec Redux Toolkit est basée sur l'api du site Reddit.com. Elle permet d'afficher les dernières publications postées dans différentes catégories de sujets, et permet de également une recherche de publications en écrivant nos propres mots clés.",
     picture: './media/project3.png',
   },
   {
