@@ -24,7 +24,7 @@ export const portfolioData = [
     languages: ['javascript', 'react', 'redux'],
     languagesIcons: ['fab fa-js', 'fab fa-react', 'fa-regular fa-r'],
     source: 'https://github.com/julienLombard/reddit-minimal',
-    info: "Projet également réalisé durant mon parcours 'Front-end Engineer Carreer Path' sur codeCademy. Cette application réalisée avec Redux Toolkit est basée sur l'api du site Reddit.com. Elle permet d'afficher les dernières publications postées dans différentes catégories de sujets, et permet de également une recherche de publications en écrivant nos propres mots clés.",
+    info: "Projet également réalisé durant mon parcours 'Front-end Engineer Carreer Path' sur codeCademy. Cette application réalisée avec Redux Toolkit est basée sur l'api du site Reddit.com. Elle permet d'afficher les dernières publications postées dans différentes catégories de sujets, et permet également une recherche de publications en écrivant nos propres mots clés.",
     picture: './media/project3.png',
   },
   {

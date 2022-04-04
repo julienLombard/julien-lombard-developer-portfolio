@@ -7,7 +7,7 @@ const Hobbies = () => {
       <ul>
         <li className="hobby">
           <i className="fa-solid fa-people-group"></i>
-          <span>Travail d'equipe</span>
+          <span>Esprit d’équipe</span>
         </li>
         <li className="hobby">
           <i className="fas fa-wrench"></i>
@@ -15,7 +15,7 @@ const Hobbies = () => {
         </li>
         <li className="hobby">
           <i className="fa-solid fa-water"></i>
-          <span>Adaptabilité</span>
+          <span>Agilité</span>
         </li>
         <li className="hobby">
           <i className="fas fa-apple-alt"></i>

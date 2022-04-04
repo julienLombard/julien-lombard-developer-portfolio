@@ -8,6 +8,9 @@ const Experience = () => {
         <div>
           <h4>2022-2021</h4>
           <h5>- Vendeur, Leroy Merlin, Paris 12e (3 mois)</h5>
+          <p>
+            Prise en charge du besoin de la clientèle, présentation de produits.
+          </p>
           <br />
         </div>
         <div>
@@ -27,11 +30,14 @@ const Experience = () => {
         <div>
           <h4>2016-2014</h4>
           <h5>- Canalisateur, Veolia Eau, Toulouse (2 ans)</h5>
+          <p>Maintenance du réseau eau potable :</p>
+          <p>Travail d’équipe, résolution de problèmes urgents.</p>
           <br />
         </div>
         <div>
           <h4>2014-2013</h4>
           <h5>- Plombier Chauffagiste, Périgueux (1 an)</h5>
+          <p>Autonomie, réalisations artisanales selon des normes.</p>
           <br />
         </div>
       </div>
