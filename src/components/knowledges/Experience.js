@@ -18,9 +18,20 @@ const Experience = () => {
           <h5>- Web Designer, auto-entreprise, Paris (2 ans)</h5>
           <p>Création de sites web :</p>
           <ul>
-            <li> Analyse du besoin client</li>
-            <li> Définition des spécifications techniques</li>
-            <li>Production, Livraison, Maintenance</li>
+            <li>
+              Analyse des besoins, Conseil client, Définition d’une charte
+              graphique
+            </li>
+            <li>Rédaction de cahier des charges : spécifications techniques</li>
+            <li>Conception, production et mise en ligne de sites web</li>
+            <li>
+              Livraison et présentation de sites, Formation client à
+              l’utilisation du back office
+            </li>
+            <li>
+              Mise à jour, Maintenance, Sécurité, Ajout de nouvelles
+              fonctionnalités
+            </li>
           </ul>
           <p>Technologies : WordPress, Css, SEO</p>
           <br />
