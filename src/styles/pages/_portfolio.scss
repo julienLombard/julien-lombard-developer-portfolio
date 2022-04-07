@@ -236,6 +236,11 @@
     }
     .infosContent {
       width: 25em !important;
+
+      .button {
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+      }
     }
   }
 }

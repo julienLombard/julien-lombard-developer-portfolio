@@ -12,7 +12,8 @@ export default class Project extends Component {
   };
 
   render() {
-    let { name, languagesIcons, source, info, picture } = this.props.item;
+    let { name, languagesIcons, source, info, picture, lien, url } =
+      this.props.item;
 
     return (
       <div className="project">
@@ -32,6 +33,16 @@ export default class Project extends Component {
             <div className="infosContent">
               <div className="head">
                 <h2>{name}</h2>
+                {lien && (
+                  <a
+                    href={url}
+                    rel="noopener noreferrer"
+                    className="button"
+                    target="_blanck"
+                  >
+                    Lien site
+                  </a>
+                )}
                 <a
                   href={source}
                   rel="noopener noreferrer"
