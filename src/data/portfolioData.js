@@ -43,10 +43,10 @@ export const portfolioData = [
       'fab fa-css3-alt',
       'fab fa-react',
     ],
-    lien: false,
-    url: '',
+    lien: true,
+    url: 'https://geomantic-oracle.vercel.app/',
     source: 'https://github.com/julienLombard/geomantic-oracle',
-    info: "Développé grâce à Redux Toolkit, cet oracle divinatoire permet de trouver des réponses à nos questions. Cependant, pour bénéficier d'une interprétation complète, il faudra encore attendre la version 2.0.",
+    info: "Développé par mes soins grâce à Redux Toolkit, cet oracle divinatoire permet aux geomanciens de trouver des réponses à nos questions. Cependant, pour bénéficier d'une tutoriel complet et d'une interface plus esthétique, il faudra encore attendre la prochaine mise à jour",
     picture: './media/project4.png',
   },
 ];
