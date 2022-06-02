@@ -36,7 +36,7 @@ export const portfolioData = [
   {
     id: 4,
     name: 'geomantic-oracle',
-    languages: ['javascript', 'redux', 'css', 'react'],
+    languages: ['javascript', 'redux', 'react'],
     languagesIcons: [
       'fab fa-js',
       'fa-regular fa-r',
