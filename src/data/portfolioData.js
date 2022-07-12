@@ -49,4 +49,20 @@ export const portfolioData = [
     info: "Développé par mes soins grâce à Redux Toolkit, cet oracle divinatoire permet aux geomanciens de trouver des réponses à nos questions. Cependant, pour bénéficier d'une tutoriel complet et d'une interface plus esthétique, il faudra encore attendre la prochaine mise à jour",
     picture: './media/project4.png',
   },
+  {
+    id: 5,
+    name: 'Jobs Listing',
+    languages: ['javascript', 'redux', 'react'],
+    languagesIcons: [
+      'fab fa-js',
+      'fa-regular fa-r',
+      'fab fa-css3-alt',
+      'fab fa-react',
+    ],
+    lien: true,
+    url: 'https://job-listing-jlombard.vercel.app/',
+    source: 'https://github.com/julienLombard/react-redux-job-listing',
+    info: "Une simple liste de jobs responsive avec son formulaire d'ajout connectés à Firebase, qui utilisent la technologie React-Redux.",
+    picture: './media/project5.png',
+  },
 ];
