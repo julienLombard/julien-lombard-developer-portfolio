@@ -37,12 +37,7 @@ export const portfolioData = [
     id: 4,
     name: 'geomantic-oracle',
     languages: ['javascript', 'redux', 'react'],
-    languagesIcons: [
-      'fab fa-js',
-      'fa-regular fa-r',
-      'fab fa-css3-alt',
-      'fab fa-react',
-    ],
+    languagesIcons: ['fab fa-js', 'fa-regular fa-r', 'fab fa-react'],
     lien: true,
     url: 'https://geomantic-oracle.vercel.app/',
     source: 'https://github.com/julienLombard/geomantic-oracle',
@@ -52,7 +47,7 @@ export const portfolioData = [
   {
     id: 5,
     name: 'Jobs Listing',
-    languages: ['javascript', 'redux', 'react'],
+    languages: ['javascript', 'redux', 'react', 'css'],
     languagesIcons: [
       'fab fa-js',
       'fa-regular fa-r',
