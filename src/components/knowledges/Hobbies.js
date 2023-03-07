@@ -15,11 +15,15 @@ const Hobbies = () => {
         </li>
         <li className="hobby">
           <i className="fa-solid fa-water"></i>
-          <span>Agilité</span>
+          <span>Flexibilité</span>
         </li>
         <li className="hobby">
           <i className="fas fa-apple-alt"></i>
           <span>Créativité</span>
+        </li>
+        <li className="hobby">
+          <i className="fas fa-seedling"></i>
+          <span>Assertivité</span>
         </li>
       </ul>
     </div>

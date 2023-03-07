@@ -67,6 +67,15 @@ const Navigation = () => {
               <i className="fab fa-github"></i>{' '}
             </a>
           </li>
+          <li>
+            <a
+              href="https://gitlab.com/julienLombard"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-gitlab"></i>{' '}
+            </a>
+          </li>
         </ul>
         <div className="signature">
           <p>Julien Lombard - 2022</p>
