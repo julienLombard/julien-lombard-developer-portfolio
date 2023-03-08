@@ -10,6 +10,7 @@ const Experience = () => {
           <h5>
             - Développeur frontend stagiaire, GreenTropism Paris 8e (6 mois)
           </h5>
+          <p>Participation aux projets internes :</p>
           <ul>
             <li>Écriture de Tests end to end avec Cypress</li>
             <li>
